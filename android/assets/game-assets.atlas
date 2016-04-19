@@ -1,0 +1,263 @@
+
+game-assets.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Cargo
+  rotate: false
+  xy: 2, 140
+  size: 384, 768
+  orig: 384, 768
+  offset: 0, 0
+  index: -1
+ContainerWalk
+  rotate: false
+  xy: 774, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+EatingAttack
+  rotate: false
+  xy: 838, 742
+  size: 96, 32
+  orig: 96, 32
+  offset: 0, 0
+  index: -1
+EatingAttackCD
+  rotate: false
+  xy: 808, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+EatingStand
+  rotate: false
+  xy: 808, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+EatingAttackPrep
+  rotate: false
+  xy: 936, 104
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+EatingWalk
+  rotate: false
+  xy: 838, 810
+  size: 128, 32
+  orig: 128, 32
+  offset: 0, 0
+  index: -1
+Events
+  rotate: false
+  xy: 518, 162
+  size: 24, 8
+  orig: 24, 8
+  offset: 0, 0
+  index: -1
+GuardAttack
+  rotate: false
+  xy: 838, 708
+  size: 96, 32
+  orig: 96, 32
+  offset: 0, 0
+  index: -1
+GuardAttackCD
+  rotate: false
+  xy: 774, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+GuardAttackPrep
+  rotate: false
+  xy: 808, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+GuardStand
+  rotate: false
+  xy: 940, 70
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+GuardWalk
+  rotate: false
+  xy: 2, 40
+  size: 384, 32
+  orig: 384, 32
+  offset: 0, 0
+  index: -1
+HideAttack
+  rotate: false
+  xy: 838, 674
+  size: 96, 32
+  orig: 96, 32
+  offset: 0, 0
+  index: -1
+HideAttackCD
+  rotate: false
+  xy: 940, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+HideStand
+  rotate: false
+  xy: 940, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+HideAttackPrep
+  rotate: false
+  xy: 940, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+HumanAttack
+  rotate: false
+  xy: 838, 640
+  size: 96, 32
+  orig: 96, 32
+  offset: 0, 0
+  index: -1
+HumanAttackCD
+  rotate: false
+  xy: 936, 876
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+HumanAttackPrep
+  rotate: false
+  xy: 838, 606
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+HumanStand
+  rotate: false
+  xy: 838, 572
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+HumanWalk
+  rotate: false
+  xy: 388, 40
+  size: 384, 32
+  orig: 384, 32
+  offset: 0, 0
+  index: -1
+Loading
+  rotate: false
+  xy: 2, 74
+  size: 704, 64
+  orig: 704, 64
+  offset: 0, 0
+  index: -1
+Main
+  rotate: false
+  xy: 870, 72
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+MainBackground
+  rotate: false
+  xy: 842, 6
+  size: 96, 64
+  orig: 96, 64
+  offset: 0, 0
+  index: -1
+ScienceShip
+  rotate: false
+  xy: 388, 172
+  size: 448, 736
+  orig: 448, 736
+  offset: 0, 0
+  index: -1
+SneakStand
+  rotate: false
+  xy: 838, 538
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+SneakWalk
+  rotate: false
+  xy: 838, 776
+  size: 128, 32
+  orig: 128, 32
+  offset: 0, 0
+  index: -1
+TheEscape
+  rotate: false
+  xy: 838, 844
+  size: 96, 64
+  orig: 96, 64
+  offset: 0, 0
+  index: -1
+TheEscapeLevels
+  rotate: false
+  xy: 708, 104
+  size: 160, 32
+  orig: 160, 32
+  offset: 0, 0
+  index: -1
+TransformingStand
+  rotate: false
+  xy: 708, 138
+  size: 256, 32
+  orig: 256, 32
+  offset: 0, 0
+  index: -1
+icons
+  rotate: false
+  xy: 388, 154
+  size: 128, 16
+  orig: 128, 16
+  offset: 0, 0
+  index: -1
+
+game-assets2.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+EscapePod
+  rotate: false
+  xy: 2, 2
+  size: 320, 360
+  orig: 320, 360
+  offset: 0, 0
+  index: -1
+Research
+  rotate: false
+  xy: 2, 364
+  size: 704, 608
+  orig: 704, 608
+  offset: 0, 0
+  index: -1
+
+game-assets3.png
+size: 512,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Shuttle
+  rotate: false
+  xy: 2, 2
+  size: 384, 448
+  orig: 384, 448
+  offset: 0, 0
+  index: -1

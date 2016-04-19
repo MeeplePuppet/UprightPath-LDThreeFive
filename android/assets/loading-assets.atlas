@@ -1,0 +1,13 @@
+
+loading-assets.png
+size: 1024,128
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+loading
+  rotate: false
+  xy: 2, 2
+  size: 704, 64
+  orig: 704, 64
+  offset: 0, 0
+  index: -1

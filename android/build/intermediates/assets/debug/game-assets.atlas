@@ -1,0 +1,131 @@
+
+game-assets.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Container
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+EatingAttack
+  rotate: false
+  xy: 870, 800
+  size: 128, 32
+  orig: 128, 32
+  offset: 0, 0
+  index: -1
+EatingWalk
+  rotate: false
+  xy: 2, 70
+  size: 128, 32
+  orig: 128, 32
+  offset: 0, 0
+  index: -1
+EscapePod
+  rotate: false
+  xy: 2, 256
+  size: 480, 576
+  orig: 480, 576
+  offset: 0, 0
+  index: -1
+GuardShoot
+  rotate: false
+  xy: 260, 154
+  size: 96, 32
+  orig: 96, 32
+  offset: 0, 0
+  index: -1
+GuardWalk
+  rotate: false
+  xy: 2, 222
+  size: 384, 32
+  orig: 384, 32
+  offset: 0, 0
+  index: -1
+HideAttack
+  rotate: false
+  xy: 870, 766
+  size: 128, 32
+  orig: 128, 32
+  offset: 0, 0
+  index: -1
+HumanShoot
+  rotate: false
+  xy: 132, 70
+  size: 96, 32
+  orig: 96, 32
+  offset: 0, 0
+  index: -1
+HumanWalk
+  rotate: false
+  xy: 2, 188
+  size: 384, 32
+  orig: 384, 32
+  offset: 0, 0
+  index: -1
+ScienceShip
+  rotate: false
+  xy: 484, 160
+  size: 384, 672
+  orig: 384, 672
+  offset: 0, 0
+  index: -1
+SneakWalk
+  rotate: false
+  xy: 2, 36
+  size: 128, 32
+  orig: 128, 32
+  offset: 0, 0
+  index: -1
+Tiles
+  rotate: false
+  xy: 2, 138
+  size: 256, 48
+  orig: 256, 48
+  offset: 0, 0
+  index: -1
+TilesDoor
+  rotate: false
+  xy: 2, 104
+  size: 256, 32
+  orig: 256, 32
+  offset: 0, 0
+  index: -1
+icons
+  rotate: false
+  xy: 870, 748
+  size: 128, 16
+  orig: 128, 16
+  offset: 0, 0
+  index: -1
+main
+  rotate: false
+  xy: 388, 190
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+spark
+  rotate: false
+  xy: 1000, 824
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+
+game-assets2.png
+size: 512,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+CargoShip
+  rotate: false
+  xy: 2, 2
+  size: 320, 672
+  orig: 320, 672
+  offset: 0, 0
+  index: -1

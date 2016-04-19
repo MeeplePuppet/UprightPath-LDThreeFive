@@ -1,0 +1,39 @@
+{ "height":12,
+ "layers":[
+        {
+         "data":[0, 0, 0, 0, 14, 13, 0, 0, 0, 0, 0, 0, 14, 34, 30, 26, 40, 13, 0, 0, 0, 14, 41, 24, 24, 24, 24, 44, 13, 0, 0, 37, 24, 24, 24, 24, 24, 24, 33, 0, 14, 25, 24, 24, 24, 24, 24, 24, 29, 13, 1, 24, 24, 24, 24, 24, 24, 24, 24, 3, 1, 24, 24, 43, 2, 2, 42, 24, 24, 3, 15, 45, 69, 7, 13, 14, 8, 69, 47, 17, 1, 24, 24, 24, 3, 1, 24, 24, 24, 3, 1, 24, 24, 24, 57, 59, 24, 24, 24, 3, 1, 24, 24, 24, 3, 1, 24, 24, 24, 3, 11, 2, 2, 2, 12, 11, 2, 2, 2, 12],
+         "height":12,
+         "name":"Tile Layer 1",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":10,
+         "x":0,
+         "y":0
+        }],
+ "nextobjectid":1,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tileheight":16,
+ "tilesets":[
+        {
+         "firstgid":1,
+         "source":"..\/Ship.tsx"
+        }, 
+        {
+         "columns":16,
+         "firstgid":49,
+         "image":"..\/TilesDoor.png",
+         "imageheight":32,
+         "imagewidth":256,
+         "margin":0,
+         "name":"TilesDoor",
+         "spacing":0,
+         "tilecount":32,
+         "tileheight":16,
+         "tilewidth":16
+        }],
+ "tilewidth":16,
+ "version":1,
+ "width":10
+}

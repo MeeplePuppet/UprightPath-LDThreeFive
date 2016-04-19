@@ -1,0 +1,108 @@
+{
+levelLayoutImage: Shuttle
+levelName: The Shuttle
+description: "The escape pod was eventually picked up by a shuttle attached toa cargo ship. The few supplies found were moved on, including you. They've already started docking with other ship. Time to feast before it's too late."
+sizeX: 10
+sizeY: 12
+winCondition: { class: com.upright.ldthreefive.logic.wincondition.KillAllEnemies }
+playerDefinition: {
+	position: {
+		x: 2.5
+		y: 10.5
+	}
+	rotation: 3.1415927
+}
+walls: [
+	{
+		localVertices: [ 0, 0, 5, 0, 5, 1, 3, 2, 2, 3, 1, 5, 1, 7, 0, 7 ]
+	}
+	{
+		localVertices: [ 5, 0, 10, 0, 10, 7, 9, 7, 9, 5, 8, 3, 7, 2, 5, 1 ]
+	}
+	{
+		localVertices: [ 0, 7, 2, 7, 2, 8, 0, 8 ]
+	}
+	{
+		localVertices: [ 4, 6, 6, 6, 7, 7, 7, 8, 3, 8, 3, 7 ]
+	}
+	{
+		localVertices: [ 8, 7, 10, 7, 10, 8, 8, 8 ]
+	}
+	{
+		localVertices: [ 0, 8, 1, 8, 1, 11, 0, 11 ]
+	}
+	{
+		localVertices: [ 4, 8, 6, 8, 6, 9.2, 4, 9.2 ]
+	}
+	{
+		localVertices: [ 9, 8, 10, 8, 10, 11, 9, 11 ]
+	}
+	{
+		localVertices: [ 4, 9.8, 6, 9.8, 6, 11, 4, 11 ]
+	}
+	{
+		localVertices: [ 0, 11, 10, 11, 10, 12, 0, 12 ]
+	}
+]
+doors: [
+	{
+		localVertices: [ 4, 9.2, 6, 9.2, 6, 9.8, 4, 9.8 ]
+	}
+]
+pathNodes: [
+	{
+		position: {
+			x: 2.5
+			y: 8.5
+		}
+		adjacentNodes: [ 1 ]
+	}
+	{
+		position: {
+			x: 2.5
+			y: 6.5
+		}
+		adjacentNodes: [ 0, 2 ]
+	}
+	{
+		position: {
+			x: 5
+			y: 5
+		}
+		adjacentNodes: [ 1, 3 ]
+	}
+	{
+		position: {
+			x: 7.5
+			y: 6.5
+		}
+		adjacentNodes: [ 2, 4 ]
+	}
+	{
+		position: {
+			x: 7.5
+			y: 8.5
+		}
+		adjacentNodes: [ 3 ]
+	}
+]
+agents: [
+	{
+		class: com.upright.ldthreefive.logic.builder.PatrollerDefinition
+		health: 2
+		position: {
+			x: 8.5
+			y: 9.5
+		}
+		pathNode: [ 4, 3, 2 ]
+	}
+	{
+		class: com.upright.ldthreefive.logic.builder.StationedDefinition
+		health: 2
+		position: {
+			x: 8.5
+			y: 9.5
+		}
+	}
+]
+}

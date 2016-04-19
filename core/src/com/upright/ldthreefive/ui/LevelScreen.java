@@ -63,9 +63,10 @@ public class LevelScreen extends GameScreen {
         window.add("FM:");
         window.add(formTable).row();
         window.add("AT:");
+        window.add(attackTable).row();
 
 
-        uiTable.add().fillX().row();
+        uiTable.add().expandX().growX().fillX().row();
         uiTable.add().expand().grow().fill();
     }
 

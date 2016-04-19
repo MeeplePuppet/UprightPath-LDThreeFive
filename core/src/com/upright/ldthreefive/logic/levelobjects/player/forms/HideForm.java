@@ -65,13 +65,13 @@ public class HideForm extends PlayerForm {
                             if (player.shootRaycastCallback.levelObject != null) {
                                 if (player.shootRaycastCallback.levelObject instanceof InteractableLevelObject) {
                                     Vector2 pos = ((InteractableLevelObject) player.shootRaycastCallback.levelObject).getTargetLocation();
-                                    if (pos.dst2(curLoc) < 1f) {
+                                    if (pos.dst2(curLoc) < 2.25f) {
                                         int targetHealth = Math.min(player.shootRaycastCallback.levelObject.getHealth(), damage);
                                         player.shootRaycastCallback.levelObject.damage(damage);
                                         curAttackCoolDown = attackCoolDown;
                                         if (player.shootRaycastCallback.levelObject instanceof Agent) {
                                             player.damage(-targetHealth);
-                                            player.essenseLevel = targetHealth;
+                                            player.essenseLevel += targetHealth;
                                             level.addEvent(new Event(EventType.PLAYER_NOISE, 25, 10), curLoc);
                                         }
                                     }
@@ -97,5 +97,9 @@ public class HideForm extends PlayerForm {
     }
 
     @Override
-    public int getAttackCoolDown() { return attackCoolDown; };
+    public int getAttackCoolDown() {
+        return attackCoolDown;
+    }
+
+    ;
 }

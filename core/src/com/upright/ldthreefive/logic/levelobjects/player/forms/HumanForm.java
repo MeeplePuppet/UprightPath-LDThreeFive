@@ -99,7 +99,7 @@ public class HumanForm extends PlayerForm {
                         } else if (ControlAction.DOWN.isTriggered()) {
                             vel = player.body.getLinearVelocity().scl(.1f);
                         } else {
-                            vel = rotation.cpy().scl(player.body.getLinearVelocity().len());
+                            vel = rotation.cpy().scl(player.body.getLinearVelocity().len() * .5f);
                         }
                         player.body.setLinearVelocity(vel);
                     }

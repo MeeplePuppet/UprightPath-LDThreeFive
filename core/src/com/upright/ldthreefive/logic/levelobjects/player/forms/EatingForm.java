@@ -78,7 +78,7 @@ public class EatingForm extends PlayerForm {
                                         curAttackCoolDown = attackCoolDown;
                                         if (player.shootRaycastCallback.levelObject instanceof Agent) {
                                             player.damage(-targetHealth);
-                                            player.essenseLevel = targetHealth;
+                                            player.essenseLevel += targetHealth;
                                             level.addEvent(new Event(EventType.PLAYER_NOISE, 25, 10), curLoc);
                                         }
                                     }
@@ -90,8 +90,7 @@ public class EatingForm extends PlayerForm {
                             player.justAttacked = true;
                         }
                     }
-                    case STANDING: {
-                    }
+                    case STANDING:
                     case WALKING:
                     case RUNNING: {
                         Vector2 vel;
@@ -113,7 +112,7 @@ public class EatingForm extends PlayerForm {
                         } else if (ControlAction.DOWN.isTriggered()) {
                             vel = player.body.getLinearVelocity().scl(.1f);
                         } else {
-                            vel = rotation.cpy().scl(player.body.getLinearVelocity().len());
+                            vel = rotation.cpy().scl(player.body.getLinearVelocity().len() * .5f);
                         }
                         player.body.setLinearVelocity(vel);
                     }

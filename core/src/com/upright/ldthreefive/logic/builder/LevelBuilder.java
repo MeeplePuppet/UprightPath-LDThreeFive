@@ -220,8 +220,8 @@ public class LevelBuilder {
     public float[] rewrapVertices(float[] verticies) {
         float[] rewrapped = new float[verticies.length];
         for (int i = 0, j = verticies.length - 2; i < verticies.length; i += 2, j -= 2) {
-            rewrapped[i] = verticies[j] - 1;
-            rewrapped[i + 1] = verticies[j + 1] - 1;
+            rewrapped[i] = verticies[j];
+            rewrapped[i + 1] = verticies[j + 1];
         }
         return rewrapped;
     }

@@ -12,8 +12,8 @@ levelDefinitionArray: [
 		posY: 100
 		sizeX: 23
 		sizeY: 20
-		offsetX: -1
-		offsetY: -1
+		offsetX: 0
+		offsetY: 0
 		winCondition: {
 			class: com.upright.ldthreefive.logic.wincondition.GetToPosition
 			position: {
@@ -33,13 +33,13 @@ levelDefinitionArray: [
 				localVertices: [ 0, 0, 3, 0, 3, 1, 2, 1, 1, 2, 1, 3, 2, 4, 3, 4, 3, 7, 6, 7, 3, 8, 2, 9, 1, 11, 1, 13, 2, 16, 3, 17, 5, 18, 8, 18, 8, 19, 0, 19 ]
 			}
 			{
-				localVertices: [ 2, 0, 22, 0, 22, 12, 21, 12, 21, 9, 18, 9, 18, 5, 15, 5, 14, 4, 13, 4, 12, 5, 12, 5.2, 9.8, 5.2, 9.8, 2.2, 8, 2.2, 8, 2, 7, 1, 6, 1, 5, 2, 5, 2.2, 4, 2.2, 4, 2, 3, 1 ]
+				localVertices: [ 3, 0, 22, 0, 22, 12, 21, 12, 21, 9, 18, 9, 18, 5, 15, 5, 14, 4, 13, 4, 12, 5, 12, 5.2, 9.8, 5.2, 9.8, 2.2, 8, 2.2, 8, 2, 7, 1, 6, 1, 5, 2, 5, 2.2, 4, 2.2, 4, 2, 3, 1 ]
 			}
 			{
 				localVertices: [ 3, 4, 4, 3, 4, 2.8, 5, 2.8, 5, 3, 6, 4, 6, 7, 3, 7 ]
 			}
 			{
-				localVertices: [ 7, 4, 8, 3, 8, 3.8, 9.2, 3.8, 9.2, 5.8, 12, 5.8, 12, 6, 13, 7, 7, 7 ]
+				localVertices: [ 7, 4, 8, 3, 8, 2.8, 9.2, 2.8, 9.2, 5.8, 12, 5.8, 12, 6, 13, 7, 7, 7 ]
 			}
 			{
 				localVertices: [ 8, 7, 13.2, 7, 13.2, 10.8, 14, 10.8, 14, 12, 12, 12, 12, 11, 11, 9, 10, 8 ]
@@ -65,14 +65,14 @@ levelDefinitionArray: [
 		pathNodes: [
 			{
 				position: {
-					x: 7.5
+					x: 6.5
 					y: 3.5
 				}
 				adjacentNodes: [ 1 ]
 			}
 			{
 				position: {
-					x: 7.5
+					x: 6.5
 					y: 8.5
 				}
 				adjacentNodes: [ 0 ]
@@ -86,14 +86,14 @@ levelDefinitionArray: [
 			}
 			{
 				position: {
-					x: 18.5
+					x: 17.5
 					y: 5.5
 				}
 				adjacentNodes: [ 2, 4 ]
 			}
 			{
 				position: {
-					x: 18.5
+					x: 17.5
 					y: 9.5
 				}
 				adjacentNodes: [ 3 ]
@@ -108,17 +108,19 @@ levelDefinitionArray: [
 				}
 				health: 2
 				damage: 2
+				loop: false;
 				pathNode: [ 0, 1 ]
 			}
 			{
 				class: com.upright.ldthreefive.logic.builder.PatrollerDefinition
 				position: {
-					x: 14.5
-					y: 6.5
+					x: 13.5
+					y: 5.5
 				}
 				health: 2
 				damage: 2
-				pathNode: [ 0, 1 ]
+				loop: false;
+				pathNode: [ 2, 3, 4 ]
 			}
 			{
 				class: com.upright.ldthreefive.logic.builder.StationedDefinition
@@ -136,12 +138,12 @@ levelDefinitionArray: [
 		levelName: The Escape Pod
 		description: "You weren't the only one to make it onto the pod. Just a short little sneak and... Yum"
 		music: Fear.wav
-		posX: 60
-		posY: 200
+		posX: 80
+		posY: 250
 		sizeX: 5
 		sizeY: 6
-		offsetX: -1
-		offsetY: -1
+		offsetX: -2
+		offsetY: -2
 		winCondition: {
 			class: com.upright.ldthreefive.logic.wincondition.KillAllEnemies
 		}
@@ -169,7 +171,7 @@ levelDefinitionArray: [
 			{
 				position: {
 					x: 2.5
-					y: 1.5
+					y: 2
 				}
 				adjacentNodes: [ ]
 			}
@@ -179,7 +181,7 @@ levelDefinitionArray: [
 				class: com.upright.ldthreefive.logic.builder.PatrollerDefinition
 				position: {
 					x: 2.5
-					y: 1.5
+					y: 2
 				}
 				health: 1
 				pathNode: [ 0 ]

@@ -6,224 +6,231 @@ filter: Nearest,Nearest
 repeat: none
 Cargo
   rotate: false
-  xy: 2, 140
+  xy: 2, 218
   size: 384, 768
   orig: 384, 768
   offset: 0, 0
   index: -1
 ContainerWalk
   rotate: false
-  xy: 774, 70
+  xy: 294, 82
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 EatingAttack
   rotate: false
-  xy: 838, 742
+  xy: 260, 116
   size: 96, 32
   orig: 96, 32
   offset: 0, 0
   index: -1
 EatingAttackCD
   rotate: false
-  xy: 808, 70
+  xy: 328, 82
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 EatingStand
   rotate: false
-  xy: 808, 70
+  xy: 328, 82
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 EatingAttackPrep
   rotate: false
-  xy: 936, 104
+  xy: 648, 198
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 EatingWalk
   rotate: false
-  xy: 838, 810
+  xy: 164, 82
   size: 128, 32
   orig: 128, 32
   offset: 0, 0
   index: -1
+EscapePod
+  rotate: false
+  xy: 388, 68
+  size: 160, 180
+  orig: 160, 180
+  offset: 0, 0
+  index: -1
 Events
   rotate: false
-  xy: 518, 162
+  xy: 358, 140
   size: 24, 8
   orig: 24, 8
   offset: 0, 0
   index: -1
 GuardAttack
   rotate: false
-  xy: 838, 708
+  xy: 806, 182
   size: 96, 32
   orig: 96, 32
   offset: 0, 0
   index: -1
 GuardAttackCD
   rotate: false
-  xy: 774, 36
+  xy: 648, 164
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 GuardAttackPrep
   rotate: false
-  xy: 808, 36
+  xy: 616, 130
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 GuardStand
   rotate: false
-  xy: 940, 70
+  xy: 650, 130
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 GuardWalk
   rotate: false
-  xy: 2, 40
+  xy: 2, 184
   size: 384, 32
   orig: 384, 32
   offset: 0, 0
   index: -1
 HideAttack
   rotate: false
-  xy: 838, 674
+  xy: 806, 148
   size: 96, 32
   orig: 96, 32
   offset: 0, 0
   index: -1
 HideAttackCD
   rotate: false
-  xy: 940, 36
+  xy: 616, 96
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 HideStand
   rotate: false
-  xy: 940, 36
+  xy: 616, 96
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 HideAttackPrep
   rotate: false
-  xy: 940, 2
+  xy: 650, 96
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 HumanAttack
   rotate: false
-  xy: 838, 640
+  xy: 684, 116
   size: 96, 32
   orig: 96, 32
   offset: 0, 0
   index: -1
 HumanAttackCD
   rotate: false
-  xy: 936, 876
+  xy: 782, 114
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 HumanAttackPrep
   rotate: false
-  xy: 838, 606
+  xy: 684, 82
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 HumanStand
   rotate: false
-  xy: 838, 572
+  xy: 718, 82
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 HumanWalk
   rotate: false
-  xy: 388, 40
+  xy: 2, 150
   size: 384, 32
   orig: 384, 32
   offset: 0, 0
   index: -1
 Loading
   rotate: false
-  xy: 2, 74
+  xy: 2, 2
   size: 704, 64
   orig: 704, 64
   offset: 0, 0
   index: -1
 Main
   rotate: false
-  xy: 870, 72
+  xy: 550, 100
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 MainBackground
   rotate: false
-  xy: 842, 6
+  xy: 550, 166
   size: 96, 64
   orig: 96, 64
   offset: 0, 0
   index: -1
 ScienceShip
   rotate: false
-  xy: 388, 172
+  xy: 388, 250
   size: 448, 736
   orig: 448, 736
   offset: 0, 0
   index: -1
 SneakStand
   rotate: false
-  xy: 838, 538
+  xy: 816, 114
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 SneakWalk
   rotate: false
-  xy: 838, 776
+  xy: 708, 216
   size: 128, 32
   orig: 128, 32
   offset: 0, 0
   index: -1
 TheEscape
   rotate: false
-  xy: 838, 844
+  xy: 708, 150
   size: 96, 64
   orig: 96, 64
   offset: 0, 0
   index: -1
 TheEscapeLevels
   rotate: false
-  xy: 708, 104
+  xy: 2, 82
   size: 160, 32
   orig: 160, 32
   offset: 0, 0
   index: -1
 TransformingStand
   rotate: false
-  xy: 708, 138
+  xy: 2, 116
   size: 256, 32
   orig: 256, 32
   offset: 0, 0
   index: -1
 icons
   rotate: false
-  xy: 388, 154
+  xy: 550, 232
   size: 128, 16
   orig: 128, 16
   offset: 0, 0
@@ -234,16 +241,9 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-EscapePod
-  rotate: false
-  xy: 2, 2
-  size: 320, 360
-  orig: 320, 360
-  offset: 0, 0
-  index: -1
 Research
   rotate: false
-  xy: 2, 364
+  xy: 2, 2
   size: 704, 608
   orig: 704, 608
   offset: 0, 0

@@ -159,7 +159,7 @@ public class SoundManager {
             loadedMusic.put(musicName, music);
         }
         music.setVolume(musicMute ? 0f : musicVolume);
-        music.play();
+        //music.play();
         music.setLooping(true);
     }
 

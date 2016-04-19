@@ -15,8 +15,8 @@ import java.io.File;
 
 public class DesktopLauncher {
     public static void main(String[] arg) {
-        TexturePacker.process("C:\\Programming\\UprightPath-LDThreeFive\\Assets\\game", "C:\\Programming\\UprightPath-LDThreeFive\\android\\assets", "game-assets");
-        TexturePacker.process("C:\\Programming\\UprightPath-LDThreeFive\\Assets\\load", "C:\\Programming\\UprightPath-LDThreeFive\\android\\assets", "load-assets");
+        //TexturePacker.process("C:\\Programming\\UprightPath-LDThreeFive\\Assets\\game", "C:\\Programming\\UprightPath-LDThreeFive\\android\\assets", "game-assets");
+        //TexturePacker.process("C:\\Programming\\UprightPath-LDThreeFive\\Assets\\load", "C:\\Programming\\UprightPath-LDThreeFive\\android\\assets", "load-assets");
         LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
 
         new LwjglApplication(new LDThreeFive(), config);
